@@ -23,4 +23,15 @@ public class Auto extends Vehiculopasajeros {
     System.out.println("Tipo de combustible: " + Tipocombustible);
   }
 
+  @Override
+  public void realizarMantenimiento(){
+    super.realizarMantenimiento();
+    System.out.println("estamos revisado el aceite, los neumáticos, los frenos, entre otras cosas Básicas ...");
+  }
+
+  public double calcularcostomant(double costoporKM, int KMrecoridos){
+    double costoTotal = costoporKM * KMrecoridos;
+    return costoTotal;
+  }
+
 }

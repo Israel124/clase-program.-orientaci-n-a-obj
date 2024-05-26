@@ -1,4 +1,4 @@
-//cehiculos pasajeros.java
+//vehiculos pasajeros.java
 public class Vehiculopasajeros extends vehiculo{
     
     private int numpasajeros;
